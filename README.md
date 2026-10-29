@@ -25,7 +25,7 @@ An exploratory analysis of more than 60 years of the Billboard Hot 100, framed a
 
 ### 2. Chart longevity
 
-- **Longevity rose, then collapsed.** The median song spent about 7 to 9 weeks on the chart in the 1960s, rising to about 20 weeks for songs debuting around 2001, when roughly 55% lasted 20+ weeks.
+- **Longevity rose, then collapsed.** The median song spent about 7 to 9 weeks on the chart in the 1960s, rising to about 20 weeks for songs debuting around 2000, when roughly 55% lasted 20+ weeks.
 - **Today's typical song is short-lived.** For songs debuting in 2020 to 2024 the median is 2 to 3 weeks and only about 16% to 18% reach 20 weeks. This holds after restricting to songs with two years of follow-up, so it is not just a side effect of recent songs still charting.
 - **At the same time, the longest runs are longer than ever.** The longest total chart times in the data belong to recent songs: Teddy Swims' "Lose Control" (112 weeks), Glass Animals' "Heat Waves" (91) and The Weeknd's "Blinding Lights" (90).
 - **Hits are a different story, but they have shortened too.** Songs that reached the Top 10 have a median of 20 to 21 weeks on the chart in 2020 to 2024, and 57% to 65% lasted 20+ weeks. That is far above the 2 to 3 weeks for all entries, but below the earlier peak. The median for hits was about 12 to 16 weeks in the 1960s, about 20 weeks from the late 1970s through the 1980s, 21 to 27 weeks from the early 1990s through the 2000s, and reached roughly 30 to 35 weeks in the mid-2010s before falling back to about 20 from 2020.
