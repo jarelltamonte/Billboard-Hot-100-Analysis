@@ -25,7 +25,7 @@ An exploratory analysis of more than 60 years of the Billboard Hot 100, framed a
 
 ### 2. Chart longevity
 
-- **Longevity rose, then collapsed.** The median song spent about 7 to 9 weeks on the chart in the 1960s, rising to about 20 weeks for songs debuting around 2000, when roughly 55% lasted 20+ weeks.
+- **Longevity rose, then collapsed.** The median song spent about 7 to 9 weeks on the chart in the 1960s, rising to about 20 weeks for songs debuting around 2001, when roughly 55% lasted 20+ weeks.
 - **Today's typical song is short-lived.** For songs debuting in 2020 to 2024 the median is 2 to 3 weeks and only about 16% to 18% reach 20 weeks. This holds after restricting to songs with two years of follow-up, so it is not just a side effect of recent songs still charting.
 - **At the same time, the longest runs are longer than ever.** The longest total chart times in the data belong to recent songs: Teddy Swims' "Lose Control" (112 weeks), Glass Animals' "Heat Waves" (91) and The Weeknd's "Blinding Lights" (90).
 - **Hits are a different story, but they have shortened too.** Songs that reached the Top 10 have a median of 20 to 21 weeks on the chart in 2020 to 2024, and 57% to 65% lasted 20+ weeks. That is far above the 2 to 3 weeks for all entries, but below the earlier peak. The median for hits was about 12 to 16 weeks in the 1960s, about 20 weeks from the late 1970s through the 1980s, 21 to 27 weeks from the early 1990s through the 2000s, and reached roughly 30 to 35 weeks in the mid-2010s before falling back to about 20 from 2020.
@@ -34,6 +34,15 @@ An exploratory analysis of more than 60 years of the Billboard Hot 100, framed a
 - I have not tested why hits shortened. One candidate is that the Top 10 now includes songs that debut high and fall quickly (for example album-release weeks); chart-rule changes are another. This analysis does not separate them.
 
 ![Longevity](figures/q2_longevity.png)
+
+**By decade, the whole distribution (not just the median).** *(Values below are read from the plot; `main.py` prints the exact figures.)*
+
+- **The middle song's chart life rose, then fell.** The median was about 7 weeks for 1960s debuts, 12 in the 1980s, 15 to 17 in the 1990s and 2000s, then 8 in the 2010s and 2 in the 2020s.
+- **The upper end held steady until the 2020s.** The top quarter of songs reached about 20 weeks in each of the 1990s, 2000s and 2010s, so the median fell while long-lived songs stayed common. In the 2020s, three quarters of songs lasted about 12 weeks or fewer.
+- **The 2010s look like a transition.** That decade has the widest spread, with the bottom quarter at about 1 week and the top quarter at 20 or more, so one-week entries and months-long hits sat side by side.
+- **The longest runs keep getting longer.** The longest-lasting songs reached roughly 43 weeks in the 1980s, 69 in the 1990s, 78 in the 2000s, 90 in the 2010s and 112 in the 2020s. Chart rules for removing older songs may contribute, and this analysis does not separate that from listening behaviour.
+- **Decades are not equal length.** The 1950s box contains only 1959 debuts (the first chart year is excluded) and the 2020s box covers 2020 to 2024.
+
 ![Longevity by decade](figures/q2_longevity_by_decade.png)
 
 ### 3. Churn and concentration
